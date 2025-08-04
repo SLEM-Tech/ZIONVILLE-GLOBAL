@@ -118,7 +118,7 @@ const Footer = () => {
 				<div className='grid grid-cols-1 md:grid-cols-4 gap-10 pb-4 lg:pb-12'>
 					{/* Brand Column */}
 					<div className='space-y-6'>
-						<LogoImage className='h-8 w-auto' />
+						<LogoImage className='rounded-md !w-[50px] lg:!w-[60px]' />
 						<p className='text-primary text-sm leading-relaxed'>
 							Premium e-commerce solutions for the modern shopper. Quality
 							products, exceptional service.
