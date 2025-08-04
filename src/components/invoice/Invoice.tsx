@@ -29,7 +29,7 @@ const Invoice = ({ data, printRef }: InvoiceProps) => {
 					</div>
 					<div className='flex flex-col gap-3'>
 						<div className='flex justify-end'>
-							<LogoImage className='rounded-sm' />
+							<LogoImage className='rounded-md !w-[50px] lg:!w-[60px]' />
 						</div>
 						<p className='text-sm text-gray-500 text-start'>
 							{data?.billing?.address_1}

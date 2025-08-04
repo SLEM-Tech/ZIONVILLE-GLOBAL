@@ -16,7 +16,7 @@ import computerOfficeResponsive2 from "./computer-office-responsive-image.png";
 import officeImg1 from "./office-img.png";
 import confetti from "./confetti.png";
 import banner from "./banner.png";
-import logoImage from "./duply-logo.png";
+import logoImage from "../zionville/zion-ville-logo.png";
 import highestImage from "./highest.png";
 import iphoneImage from "./iphone.png";
 import phoneSample from "./phone-sample.png";

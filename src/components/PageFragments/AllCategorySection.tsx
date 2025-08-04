@@ -34,42 +34,51 @@ const AllCategorySection = () => {
 	return (
 		<>
 			<section className='mx-auto max-w-[1300px] sm:px-6 pt-5 md:pt-24 lg:pt-32'>
-				{/* Top Row */}
 				<div className='flex w-full flex-col gap-4 overflow-x-auto no-scrollbar mb-4 md:mb-5'>
+					{/* Top Row - First Image */}
 					<div className='flex items-center space-x-3 sm:space-x-4 px-2'>
-						{PROMO_IMAGES.slice(0, 3).map((img, index) => (
-							<Picture
-								key={`top-${img.id}`}
-								src={img.src}
-								alt={img.alt}
-								className='rounded-xl md:rounded-3xl h-44 sm:h-52 md:h-60 flex-shrink-0
-            min-w-[280px] sm:min-w-[340px] 
-            md:min-w-[400px] lg:min-w-[460px]
-            first:min-w-[300px] sm:first:min-w-[380px] 
-            md:first:min-w-[460px] lg:first:min-w-[560px]'
-							/>
-						))}
+						<Picture
+							src={PROMO_IMAGES[0].src}
+							alt={PROMO_IMAGES[0].alt}
+							className='rounded-xl md:rounded-3xl h-44 sm:h-52 md:h-60 flex-shrink-0 min-w-[300px] sm:min-w-[380px] md:min-w-[460px] lg:max-w-[200px]'
+						/>
+
+						{/* Top Row - Second Image */}
+						<Picture
+							src={PROMO_IMAGES[1].src}
+							alt={PROMO_IMAGES[1].alt}
+							className='rounded-xl md:rounded-3xl h-44 sm:h-52 md:h-60 flex-shrink-0 min-w-[260px] sm:min-w-[340px] md:min-w-[400px] lg:max-w-[400px]'
+						/>
+
+						{/* Top Row - Third Image */}
+						<Picture
+							src={PROMO_IMAGES[2].src}
+							alt={PROMO_IMAGES[2].alt}
+							className='rounded-xl md:rounded-3xl h-44 sm:h-52 md:h-60 flex-shrink-0 min-w-[240px] sm:min-w-[300px] md:min-w-[360px] lg:max-w-[200px]'
+						/>
 					</div>
 				</div>
 
 				{/* Bottom Row */}
 				<div className='flex w-full flex-col gap-4 overflow-x-auto no-scrollbar'>
 					<div className='flex items-center space-x-3 sm:space-x-4 px-2'>
-						{PROMO_IMAGES.slice(3, 6).map((img, index) => (
-							<Picture
-								key={`bottom-${img.id}`}
-								src={img.src}
-								alt={img.alt}
-								className={`rounded-xl md:rounded-3xl h-44 sm:h-52 md:h-60 flex-shrink-0
-            ${
-							index === 0
-								? "min-w-[240px] sm:min-w-[300px] md:min-w-[360px] lg:min-w-[400px]"
-								: index === 1
-								? "min-w-[320px] sm:min-w-[500px] md:min-w-[600px] lg:min-w-[700px]"
-								: "min-w-[200px] sm:min-w-[280px] md:min-w-[320px] lg:w-fit"
-						}`}
-							/>
-						))}
+						<Picture
+							src={PROMO_IMAGES[3].src}
+							alt={PROMO_IMAGES[3].alt}
+							className='rounded-xl md:rounded-3xl h-44 sm:h-52 md:h-60 flex-shrink-0 min-w-[240px] sm:min-w-[300px] md:min-w-[360px] lg:max-w-[400px]'
+						/>
+
+						<Picture
+							src={PROMO_IMAGES[4].src}
+							alt={PROMO_IMAGES[4].alt}
+							className='rounded-xl md:rounded-3xl h-44 sm:h-52 md:h-60 flex-shrink-0 min-w-[320px] sm:min-w-[500px] md:min-w-[600px] lg:max-w-[700px]'
+						/>
+
+						<Picture
+							src={PROMO_IMAGES[5].src}
+							alt={PROMO_IMAGES[5].alt}
+							className='rounded-xl md:rounded-3xl h-44 sm:h-52 md:h-60 flex-shrink-0 min-w-[200px] sm:min-w-[280px] md:min-w-[320px] lg:w-fit'
+						/>
 					</div>
 				</div>
 			</section>
