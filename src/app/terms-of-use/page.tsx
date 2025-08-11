@@ -40,8 +40,8 @@ const Page = () => {
 					<span className='text-xs sm:text-sm xl:text-base leading-[150%] text-black/80 sm:max-w-3xl slg:max-w-2xl'>
 						At Zionville Global Stores Limited, we operate modern park and shop
 						variety stores to meet all customer needs while serving as
-						manufacturers' representatives and suppliers of general goods with
-						comprehensive contract services and customer satisfaction
+						manufacturers&apos; representatives and suppliers of general goods
+						with comprehensive contract services and customer satisfaction
 						guarantees.
 					</span>
 					<div className='flex gap-2 mt-3 xl:mt-8 text-[10px] xs:text-xs sm:text-sm slg:text-base leading-[140%] bg-[#F5F5F5] p-1 rounded-md transition'>
@@ -97,9 +97,9 @@ const Page = () => {
 
 							<p className='mt-2 leading-[1.8] text-xs md:text-sm xl:text-base'>
 								By shopping at Zionville Global Stores Limited or engaging our
-								services as manufacturers' representatives and general goods
-								suppliers, you agree to the following comprehensive terms and
-								conditions:
+								services as manufacturers&apos; representatives and general
+								goods suppliers, you agree to the following comprehensive terms
+								and conditions:
 							</p>
 
 							<ul className='list-disc pl-5 mt-2 space-y-2 text-xs md:text-sm xl:text-base'>
@@ -124,7 +124,7 @@ const Page = () => {
 								</li>
 								<li>
 									<span className='font-medium'>
-										Manufacturers' Representative Services:
+										Manufacturers&apos; Representative Services:
 									</span>{" "}
 									As authorized representatives for various manufacturers, we
 									provide product sourcing, distribution services, local market
@@ -147,8 +147,8 @@ const Page = () => {
 									We execute general contracts including project coordination,
 									timeline management, quality assurance, and delivery
 									guarantees. Contract services span multiple industries with
-									customized solutions for each client's specific requirements
-									and objectives.
+									customized solutions for each client&apos;s specific
+									requirements and objectives.
 								</li>
 								<li>
 									<span className='font-medium'>Store Shopping Policies:</span>{" "}
@@ -228,13 +228,13 @@ const Page = () => {
 							</h4>
 
 							<p className='mt-2 leading-[1.8] text-xs md:text-sm xl:text-base'>
-								As manufacturers' representatives, we share necessary business
-								information with partners for inventory management, warranty
-								services, and market analysis. Customer purchase data may be
-								shared in aggregate form for trend analysis. All manufacturer
-								relationships include privacy protection clauses. Supplier
-								partnerships maintain strict confidentiality requirements for
-								business customer information.
+								As manufacturers&apos; representatives, we share necessary
+								business information with partners for inventory management,
+								warranty services, and market analysis. Customer purchase data
+								may be shared in aggregate form for trend analysis. All
+								manufacturer relationships include privacy protection clauses.
+								Supplier partnerships maintain strict confidentiality
+								requirements for business customer information.
 							</p>
 
 							<h4 className='text-sm sm:text-base lg:text-lg font-medium mt-4'>
@@ -373,8 +373,8 @@ const Page = () => {
 										Specialized packaging and labeling for business requirements
 									</li>
 									<li>
-										Drop shipping services for manufacturers' representative
-										products
+										Drop shipping services for manufacturers&apos;
+										representative products
 									</li>
 								</ul>
 							</div>
@@ -434,7 +434,7 @@ const Page = () => {
 
 							<div className='mb-6'>
 								<h4 className='font-medium text-xs md:text-sm xl:text-base mb-2'>
-									Manufacturers' Representative Services
+									Manufacturers&apos; Representative Services
 								</h4>
 								<ul className='list-disc pl-5 space-y-1 text-xs md:text-sm xl:text-base'>
 									<li>
@@ -490,9 +490,9 @@ const Page = () => {
 							<p className='text-xs md:text-sm xl:text-base mb-4'>
 								At Zionville Global Stores Limited, customer satisfaction is our
 								top priority. Our comprehensive refund policy covers retail
-								purchases, business services, and manufacturers' representative
-								obligations to ensure fair treatment and exceptional customer
-								service across all our operations.
+								purchases, business services, and manufacturers&apos;
+								representative obligations to ensure fair treatment and
+								exceptional customer service across all our operations.
 							</p>
 
 							<ul className='list-disc pl-5 space-y-3 leading-[1.8] text-xs md:text-sm xl:text-base'>
@@ -581,7 +581,7 @@ const Page = () => {
 
 								<li>
 									<span className='font-medium'>
-										4. Manufacturers' Representative Refunds
+										4. Manufacturers&apos; Representative Refunds
 									</span>
 									<ul className='list-disc pl-5 mt-1 space-y-1'>
 										<li>
@@ -702,7 +702,7 @@ const Page = () => {
 								</li>
 							</ul>
 
-							<div className='mt-6 pt-4 border-t border-gray-200'>
+							{/* <div className='mt-6 pt-4 border-t border-gray-200'>
 								<h4 className='font-semibold text-xs md:text-sm xl:text-base mb-2'>
 									Contact Information
 								</h4>
@@ -716,7 +716,7 @@ const Page = () => {
 									<li>Phone: +234-801-234-5012</li>
 									<li>Website: www.zionvilleglobal.com.ng</li>
 								</ul>
-							</div>
+							</div> */}
 						</div>
 					)}
 				</div>

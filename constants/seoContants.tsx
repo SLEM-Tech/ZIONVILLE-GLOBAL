@@ -1,8 +1,8 @@
-const websiteUrl = "";
+const websiteUrl = "https://zionville-global.vercel.app";
 export const websiteName = "Zionville Global Store Limited";
 
 export const SEODATA = {
-	defaultOGImage: ``,
+	defaultOGImage: `/_next/static/media/zion-ville-logo.05078b57.png`,
 	default: {
 		title: websiteName,
 		description: `This is ${websiteName}`,
