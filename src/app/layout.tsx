@@ -27,22 +27,23 @@ export const metadata: Metadata = {
 		],
 	},
 	other: {
-		"application/ld+json": JSON.stringify({
-			"@context": "https://schema.org",
-			"@type": "Organization",
-			"name": "Zion Ville",
-			"founder": {
-				"@type": "Organization",
-				"name": "SLEM Technologies",
-				"url": "https://slemtech.com",
-				"founder": {
-					"@type": "Person",
-					"name": "Anselm Fowel",
-					"url": "https://anselmfowel.com",
-					"jobTitle": "CEO & CTO"
-				}
-			}
-		})
+  "application/ld+json": JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "zionville-Global",
+    "creator": {
+      "@type": "Organization",
+      "name": "SLEM Technologies",
+      "url": "https://slemtech.com",
+      "founder": {
+        "@type": "Person",
+        "name": "Anselm Fowel",
+        "url": "https://anselmfowel.com",
+        "jobTitle": "CEO & CTO"
+      },
+      "role": "Paid Consultant"
+    }
+  })
 	}
 };
 
