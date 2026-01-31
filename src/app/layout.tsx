@@ -30,8 +30,7 @@ export const metadata: Metadata = {
 		"application/ld+json": JSON.stringify({
 			"@context": "https://schema.org",
 			"@type": "Organization",
-			"name": "Your Company Name",
-			"url": "https://yourwebsite.com",
+			"name": "Zion Ville",
 			"founder": {
 				"@type": "Organization",
 				"name": "SLEM Technologies",
@@ -40,7 +39,7 @@ export const metadata: Metadata = {
 					"@type": "Person",
 					"name": "Anselm Fowel",
 					"url": "https://anselmfowel.com",
-					"jobTitle": "CEO"
+					"jobTitle": "CEO & CTO"
 				}
 			}
 		})
