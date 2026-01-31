@@ -26,6 +26,25 @@ export const metadata: Metadata = {
 			},
 		],
 	},
+	other: {
+		"application/ld+json": JSON.stringify({
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "Your Company Name",
+			"url": "https://yourwebsite.com",
+			"founder": {
+				"@type": "Organization",
+				"name": "SLEM Technologies",
+				"url": "https://slemtech.com",
+				"founder": {
+					"@type": "Person",
+					"name": "Anselm Fowel",
+					"url": "https://anselmfowel.com",
+					"jobTitle": "CEO"
+				}
+			}
+		})
+	}
 };
 
 export default function RootLayout({
